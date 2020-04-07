@@ -9819,7 +9819,7 @@ exports.run = function(id,filter,x_axis,y_axis,yAxis_scale,chart_title,from_day,
 <div created="20200406213106585" modified="20200406213106585" title="$:/state/showeditpreview">
 <pre>yes</pre>
 </div>
-<div created="20200407083746089" modified="20200407152156010" title="$:/state/sidebar">
+<div created="20200407083746089" modified="20200407154834256" title="$:/state/sidebar">
 <pre>no</pre>
 </div>
 <div created="20200406220910526" modified="20200406220942406" title="$:/state/Spain Chart">
@@ -10621,7 +10621,8 @@ This plugin also requires the JSZip plugin ([[$:/plugins/tiddlywiki/jszip]]) to 
 <pre>$:/themes/tiddlywiki/tight</pre>
 </div>
 <div tags="$:/tags/Stylesheet" title="$:/themes/tiddlywiki/readonly/styles.tid">
-<pre>\define button-selector(title)
+<pre>
+\define button-selector(title)
 button.$title$, .tc-drop-down button.$title$, div.$title$
 \end
 
@@ -10630,6 +10631,8 @@ button.$title$, .tc-drop-down button.$title$, div.$title$
 &lt;&lt;button-selector tc-btn-\%24\%3A\%2Fcore\%2Fui\%2FButtons\%2Fclone&gt;&gt;,
 &lt;&lt;button-selector tc-btn-\%24\%3A\%2Fcore\%2Fui\%2FButtons\%2Fdelete&gt;&gt;,
 &lt;&lt;button-selector tc-btn-\%24\%3A\%2Fcore\%2Fui\%2FButtons\%2Fedit&gt;&gt;,
+&lt;&lt;button-selector tc-btn-\%24\%3A\%2Fcore\%2Fui\%2FButtons\%2Fclose&gt;&gt;,
+&lt;&lt;button-selector tc-btn-\%24\%3A\%2Fcore\%2Fui\%2FButtons\%2Fmore-tiddler-actions&gt;&gt;,
 &lt;&lt;button-selector tc-btn-\%24\%3A\%2Fcore\%2Fui\%2FButtons\%2Fnew-here&gt;&gt;,
 &lt;&lt;button-selector tc-btn-\%24\%3A\%2Fcore\%2Fui\%2FButtons\%2Fnew-journal-here&gt;&gt;,
 &lt;&lt;button-selector tc-btn-\%24\%3A\%2Fcore\%2Fui\%2FButtons\%2Fimport&gt;&gt;,
@@ -10638,7 +10641,9 @@ button.$title$, .tc-drop-down button.$title$, div.$title$
 &lt;&lt;button-selector tc-btn-\%24\%3A\%2Fcore\%2Fui\%2FButtons\%2Fnew-journal&gt;&gt;,
 &lt;&lt;button-selector tc-btn-\%24\%3A\%2Fcore\%2Fui\%2FButtons\%2Fnew-tiddler&gt;&gt; {
 	display: none;
-}</pre>
+}
+
+</pre>
 </div>
 <div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="$:/themes/tiddlywiki/vanilla" description="Emphasises individual tiddlers" name="Snow White" plugin-priority="0" plugin-type="theme" title="$:/themes/tiddlywiki/snowwhite" type="application/json" version="5.1.19">
 <pre>{

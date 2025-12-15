@@ -1,0 +1,5 @@
+- DOMAIN,dns.msftncsi.com,DIRECT
+- DOMAIN,www.msftconnecttest.com,DIRECT
+- DOMAIN,ipv6.msftconnecttest.com,DIRECT
+- IP-CIDR,131.107.255.255/32,DIRECT,no-resolve
+
